@@ -2,7 +2,7 @@
 
 # make folders
 mkdir -p \
-	/downloads/{complete,incomplete} /watch
+	/downloads /watch
 
 # copy config
 [[ ! -f /config/settings.json ]] && cp \
