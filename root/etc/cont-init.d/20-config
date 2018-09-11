@@ -1,5 +1,8 @@
 #!/usr/bin/with-contenv bash
 
+# create torrent group
+groupadd -g $TGID torrent
+
 # make folders
 mkdir -p \
 	/downloads /watch
