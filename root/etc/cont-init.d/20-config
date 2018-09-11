@@ -8,7 +8,7 @@ gpasswd -a abc torrent
 
 # make folders
 mkdir -p \
-	/downloads /watch
+	/downloads/{downloading} /watch
 
 # copy config
 [[ ! -f /config/settings.json ]] && cp \
@@ -22,6 +22,7 @@ mkdir -p \
 chown abc:torrent \
 	/config/settings.json \
 	/config/blocklist-update.sh \
+	/downloads/downloading \
 	/watch
 
 chmod 755 /config/blocklist-update.sh
