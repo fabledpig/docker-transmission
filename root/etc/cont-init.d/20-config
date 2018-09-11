@@ -19,7 +19,7 @@ mkdir -p \
 	/defaults/blocklist-update.sh /config/blocklist-update.sh
 
 # permissions
-chown abc:abc \
+chown abc:torrent \
 	/config/settings.json \
 	/config/blocklist-update.sh \
 	/watch
