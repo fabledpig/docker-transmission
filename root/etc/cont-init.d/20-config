@@ -25,4 +25,7 @@ chown abc:torrent \
 	/downloads/downloading \
 	/watch
 
+chown :torrent \
+	/downloads
+
 chmod 755 /config/blocklist-update.sh
