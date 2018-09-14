@@ -8,7 +8,7 @@ gpasswd -a abc torrent
 
 # make folders
 mkdir -p \
-	/downloads/{downloading} /watch
+	/downloads/downloading /watch
 
 # copy config
 [[ ! -f /config/settings.json ]] && cp \
